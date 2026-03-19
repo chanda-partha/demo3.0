@@ -1,0 +1,96 @@
+.navbar {
+    border-radius: 15px;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 8px 2px black;
+}
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+.navbar nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+.navbar nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+body{
+    margin: 5px;
+    background-image: url("images/new-zealand-sunrise-green-mountain-view-wallpaper.jpg");
+    animation: zoomEffect s infinite alternate;
+}
+
+@keyframes zoomEffect {
+
+    0% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 150%;
+    }
+}
+.frame_work{
+    padding: 20px;
+    height: 500px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.framework_example {
+    justify-self: center;
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    background-image: url("images/DALL·E\ 2025-03-21\ 12.04.46\ -\ A\ full-size\ PC\ wallpaper\ featuring\ the\ legendary\ Scarface\ lion\ of\ the\ Masai\ Mara\,\ known\ for\ its\ distinctive\ scar\ over\ one\ eye\ and\ majestic\ presence.\ T.jpg");
+    height: 200px;
+    box-shadow: 0px 0px 8px 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: rgb(131, 131, 172);
+
+    animation: cinematicEffect 20s infinite alternate ease-in-out;
+}
+.framework_example ::after{
+    content: "";
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+@keyframes cinematicEffect {
+    0% {
+        transform: scale(1) translateX(0);
+    }
+    100% {
+        transform: scale(1.2) translateX(20px);
+    }
+}
+.navbar{
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    unicode-bidi: isolate;
+    margin-top: 20px;
+    background-color: rgb(89, 31, 116);
+}
+.navbar{
+    border-radius: 0;
+}
+.d-flex input {
+    display: flex;
+    width: 300px;
+    background-color: rgb(139, 119, 148);
+}
